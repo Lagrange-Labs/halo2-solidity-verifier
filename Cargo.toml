@@ -35,6 +35,5 @@ required-features = ["evm"]
 [patch."https://github.com/zkonduit/halo2"]
 halo2_proofs = { git = "https://github.com/Lagrange-Labs/halo2.git" , rev = "bf9d005" }
 
-
 [patch."https://github.com/zkonduit/halo2wrong"]
 halo2_maingate = { git = "https://github.com/Lagrange-Labs/halo2wrong", branch = "ac/chunked-mv-lookup", package = "maingate" }
